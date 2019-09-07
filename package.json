@@ -1,0 +1,17 @@
+{
+  "name": "moldova",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "now dev",
+    "build": "next build",
+    "next-start": "next start",
+    "deploy:dev": "now",
+    "deploy:prod": "now --prod"
+  },
+  "dependencies": {
+    "next": "9.0.5",
+    "react": "16.9.0",
+    "react-dom": "16.9.0"
+  }
+}
