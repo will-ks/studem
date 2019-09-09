@@ -2,8 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="286adcd1-5e1a-4e71-8c38-4b10e1b66873" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/template/charity2/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/template/charity2/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/charity2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/charity2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/thecharity/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/causes.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/thecharity/causes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/thecharity/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/thecharity/elements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/about-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/about-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/c.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/c.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/cause-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/cause-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/cause-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/cause-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/cause-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/cause-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/cause-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/cause-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/cause-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/cause-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/cause-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/cause-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/cause-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/cause-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/causes-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/causes-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/charity-gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/charity-gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/charity-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/charity-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/charity.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/charity.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/contact-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/contact-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/d.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/d.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/donate-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/donate-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/donation-gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/donation-gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/donation-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/donation-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/donation.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/donation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/dove.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/dove.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/e.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/e.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/elements-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/elements-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/event-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/event-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/event-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/event-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/event-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/event-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/eye-for.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/eye-for.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/featured-causes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/featured-causes.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/foot-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/foot-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/foot-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/foot-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/g.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/g.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/h.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/h.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/hands-gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/hands-gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/hands-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/hands-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/hero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/hero.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/i.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/i.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/news-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/news-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/olive.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/olive.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/oshomah.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/oshomah.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/p-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/p-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/p-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/p-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/p-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/p-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/portfolio-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/portfolio-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/single-cause-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/single-cause-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/teamwork.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/teamwork.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/testimonial-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/testimonial-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/testimonial-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/testimonial-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/u-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/u-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/u-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/u-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/u-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/u-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/welcome-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/welcome-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/images/welcome.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/welcome.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/thecharity/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/thecharity/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/thecharity/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/single-causes.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/thecharity/single-causes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/thecharity/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/template/thecharity/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,58 +84,47 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/thecharity/js/custom.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/static/favicon.ico">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/thecharity/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-              <folding>
-                <element signature="e#13427#13433#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/thecharity/causes.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-              <folding>
-                <element signature="e#30882#30888#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/thecharity/contact.html">
+        <entry file="file://$PROJECT_DIR$/template/charity2/single-blog.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
-                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#11528#11534#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#a#0;n#div#0;n#div#2;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#a#0;n#div#1;n#div#2;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#a#0;n#div#2;n#div#2;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#23440#23446#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/thecharity/elements.html">
+        <entry file="file://$PROJECT_DIR$/template/charity2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            <state relative-caret-position="3445">
+              <caret line="189" column="21" selection-start-line="189" selection-start-column="21" selection-end-line="189" selection-end-column="21" />
               <folding>
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#22363#22369#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#36327#36333#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Header/Header.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -74,53 +132,48 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/thecharity/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            <state relative-caret-position="462">
+              <caret line="125" column="10" selection-start-line="84" selection-start-column="1" selection-end-line="125" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/thecharity/news.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-              <folding>
-                <element signature="e#22414#22420#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/template/thecharity/css/swiper.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/thecharity/portfolio.html">
+        <entry file="file://$PROJECT_DIR$/pages/index/index.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            <state relative-caret-position="189">
+              <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
               <folding>
-                <element signature="e#15383#15389#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/template/thecharity/style.css">
+        <entry file="file://$PROJECT_DIR$/pages/index/components/Welcome.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+            <state relative-caret-position="756">
+              <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/thecharity/single-causes.html">
+        <entry file="file://$PROJECT_DIR$/static/css/style.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Meta/Meta.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-              <folding>
-                <element signature="e#17009#17015#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="209">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -145,22 +198,26 @@
         <option value="$PROJECT_DIR$/template/charity2/single-cause.html" />
         <option value="$PROJECT_DIR$/template/charity2/single-event.html" />
         <option value="$PROJECT_DIR$/template/charity2/js/main.js" />
-        <option value="$PROJECT_DIR$/pages/index.tsx" />
         <option value="$PROJECT_DIR$/template/charity2/index.html" />
         <option value="$PROJECT_DIR$/template/charity2/css/style.css" />
         <option value="$PROJECT_DIR$/template/thecharity/about.html" />
         <option value="$PROJECT_DIR$/template/thecharity/causes.html" />
         <option value="$PROJECT_DIR$/template/thecharity/contact.html" />
         <option value="$PROJECT_DIR$/template/thecharity/elements.html" />
-        <option value="$PROJECT_DIR$/template/thecharity/index.html" />
         <option value="$PROJECT_DIR$/template/thecharity/news.html" />
         <option value="$PROJECT_DIR$/template/thecharity/single-causes.html" />
         <option value="$PROJECT_DIR$/template/thecharity/portfolio.html" />
         <option value="$PROJECT_DIR$/template/thecharity/style.css" />
+        <option value="$PROJECT_DIR$/template/thecharity/index.html" />
+        <option value="$PROJECT_DIR$/pages/index.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Meta/Meta.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Header/Header.tsx" />
+        <option value="$PROJECT_DIR$/pages/index/index.tsx" />
+        <option value="$PROJECT_DIR$/pages/index/components/Welcome.tsx" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
@@ -173,7 +230,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,7 +245,69 @@
             <path>
               <item name="moldova" type="b2602c69:ProjectViewProjectNode" />
               <item name="moldova" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="moldova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moldova" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="moldova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moldova" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="moldova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moldova" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="moldova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moldova" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="moldova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moldova" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Meta" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="moldova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moldova" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="moldova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moldova" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="moldova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moldova" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="swiper.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="moldova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moldova" type="462c0819:PsiDirectoryNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="moldova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moldova" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="charity2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="moldova" type="b2602c69:ProjectViewProjectNode" />
@@ -202,19 +320,20 @@
               <item name="moldova" type="462c0819:PsiDirectoryNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
               <item name="thecharity" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/template" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/css" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -223,12 +342,17 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages/index" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/static/css" />
+      <recent name="$PROJECT_DIR$/template" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/css" />
+      <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/template" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/template" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -243,8 +367,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
     <configuration name="blank.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moldova/template/charity2/blank.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="elements.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moldova/template/thecharity/elements.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moldova/template/thecharity/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/moldova/template/charity2/index.html" useBuiltInWebServerPort="true">
@@ -252,7 +382,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.elements.html" />
         <item itemvalue="JavaScript Debug.blank.html" />
       </list>
     </recent_temporary>
@@ -267,33 +399,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567860559294</updated>
-      <workItem from="1567860560950" duration="3049000" />
+      <workItem from="1567860560950" duration="3801000" />
+      <workItem from="1568040901438" duration="2385000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3049000" />
+    <option name="totallyTimeSpent" value="6186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="TypeScript" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -320,13 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/next-env.d.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -340,20 +466,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#a#0;n#div#1;n#div#2;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#a#0;n#div#2;n#div#2;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#22462#22468#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/charity2/single-blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#a#0;n#div#0;n#div#2;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#a#0;n#div#1;n#div#2;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#a#0;n#div#2;n#div#2;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#23440#23446#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -403,16 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="39" column="10" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="39" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/charity2/blank.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="673">
@@ -420,18 +522,6 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#8832#8838#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/charity2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2164">
-          <caret line="189" column="21" selection-start-line="189" selection-start-column="21" selection-end-line="189" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#36327#36333#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -477,30 +567,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/thecharity/elements.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#22363#22369#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/thecharity/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/thecharity/news.html">
+    <entry file="file://$PROJECT_DIR$/template/thecharity/portfolio.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
           <folding>
-            <element signature="e#22414#22420#0" expanded="true" />
+            <element signature="e#15383#15389#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -515,20 +587,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/thecharity/portfolio.html">
+    <entry file="file://$PROJECT_DIR$/template/thecharity/elements.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state relative-caret-position="441">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
           <folding>
-            <element signature="e#15383#15389#0" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#22363#22369#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/template/thecharity/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="114" column="13" selection-start-line="31" selection-start-column="1" selection-end-line="114" selection-end-column="13" />
+          <folding>
+            <element signature="e#22414#22420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/thecharity/css/elegant-fonts.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/swiper.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/template/thecharity/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Meta/Meta.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/thecharity/css/swiper.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/charity2/single-blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#a#0;n#div#0;n#div#2;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#a#0;n#div#1;n#div#2;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#a#0;n#div#2;n#div#2;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#23440#23446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/charity2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3445">
+          <caret line="189" column="21" selection-start-line="189" selection-start-column="21" selection-end-line="189" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#36327#36333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/thecharity/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="125" column="10" selection-start-line="84" selection-start-column="1" selection-end-line="125" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/components/Welcome.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
         </state>
       </provider>
     </entry>
