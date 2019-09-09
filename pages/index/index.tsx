@@ -1,17 +1,16 @@
 import React from "react";
 import Link from "next/link";
 import Head from "next/head";
-import Nav from "../components/nav";
-import Header from "../src/components/Header/Header";
-import Meta from "../src/components/Meta/Meta";
+import Nav from "../../components/nav";
+import Header from "../../src/components/Header/Header";
+import Meta from "../../src/components/Meta/Meta";
+import Welcome from "./components/Welcome";
 
 const Home = () => (
   <div>
     <Meta title="Home" />
-    <Head>
-      <title>Home</title>
-    </Head>
     <Header />
+    <Welcome />
 
     <style jsx>{`
       .hero {
