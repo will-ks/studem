@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Header = (props: Props) => {
   const { currentItem } = props;
+  const [showHamburgerMenu, setShowHamburgerMenu] = useState(false);
+
   return (
     <header className="site-header">
       <div className="nav-bar">
@@ -19,7 +21,11 @@ const Header = (props: Props) => {
                 </a>
               </div>
 
-              <nav className="site-navigation d-flex justify-content-end align-items-center">
+              <nav
+                className={`site-navigation d-flex justify-content-end align-items-center ${
+                  showHamburgerMenu ? "show" : ""
+                }`}
+              >
                 <ul className="d-flex flex-column flex-lg-row justify-content-lg-end align-content-center">
                   <li
                     className={
@@ -52,7 +58,14 @@ const Header = (props: Props) => {
                 </ul>
               </nav>
 
-              <div className="hamburger-menu d-lg-none">
+              <div
+                className={`hamburger-menu d-lg-none ${
+                  showHamburgerMenu ? "open" : ""
+                }`}
+                onClick={() => {
+                  setShowHamburgerMenu(!showHamburgerMenu);
+                }}
+              >
                 <span></span>
                 <span></span>
                 <span></span>

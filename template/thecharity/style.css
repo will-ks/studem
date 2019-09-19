@@ -1483,7 +1483,7 @@ ul.tabs-nav .tab-nav.active {
   visibility: visible;
 }
 
-.billing-information input {
+.event-information input {
   width: calc(50% - 14px);
   padding: 12px 30px;
   margin-top: 28px;
@@ -1492,12 +1492,12 @@ ul.tabs-nav .tab-nav.active {
   line-height: 1;
 }
 
-.billing-information input::placeholder {
+.event-information input::placeholder {
   color: #929191;
 }
 
 @media screen and (max-width: 768px) {
-  .billing-information input {
+  .event-information input {
     width: 100%;
   }
 }

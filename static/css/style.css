@@ -1390,32 +1390,32 @@ ul.tabs-nav .tab-nav.active {
 /*
 # Donation Form
 --------------------------------*/
-.donation-form-wrap {
+.event-form-wrap {
   padding: 96px 64px;
   margin-bottom: 96px;
   background: #edf3f5;
 }
 
-.donation-form-wrap h2 {
+.event-form-wrap h2 {
   font-size: 30px;
   font-weight: 500;
 }
 
-.donation-form-wrap h4 {
+.event-form-wrap h4 {
   font-size: 16px;
   font-weight: 500;
 }
 
-.donation-form .radio-label {
+.event-form .radio-label {
   display: block;
 }
 
-.donation-form .radio-label > input[type="radio"] {
+.event-form .radio-label > input[type="radio"] {
   visibility: hidden;
   position: absolute;
 }
 
-.donation-form .radio-label > input + .donate-amount {
+.event-form .radio-label > input + .donate-amount {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1429,20 +1429,20 @@ ul.tabs-nav .tab-nav.active {
   background: #fff;
 }
 
-.donation-form .radio-label:nth-last-of-type(1) > input + .donate-amount {
+.event-form .radio-label:nth-last-of-type(1) > input + .donate-amount {
   margin-right: 0;
 }
 
-.donation-form .radio-label > input:checked + .donate-amount {
+.event-form .radio-label > input:checked + .donate-amount {
   border-color: #e51b23;
 }
 
-.donation-form .payment-type input[type="radio"] {
+.event-form .payment-type input[type="radio"] {
   visibility: hidden;
   position: absolute;
 }
 
-.donation-form .payment-type label {
+.event-form .payment-type label {
   position: relative;
   margin-right: 40px;
   font-size: 14px;
@@ -1450,7 +1450,7 @@ ul.tabs-nav .tab-nav.active {
   color: #6a6a6a;
 }
 
-.donation-form .payment-type input[type="radio"] + .payment-type-radio {
+.event-form .payment-type input[type="radio"] + .event-type-radio {
   display: block;
   width: 18px;
   height: 18px;
@@ -1461,10 +1461,10 @@ ul.tabs-nav .tab-nav.active {
   cursor: pointer;
 }
 
-.donation-form
+.event-form
   .payment-type
   input[type="radio"]
-  + .payment-type-radio
+  + .event-type-radio
   + .centered-dot {
   visibility: hidden;
   display: block;
@@ -1476,19 +1476,19 @@ ul.tabs-nav .tab-nav.active {
   background: #e51b23;
 }
 
-.donation-form .payment-type input[type="radio"]:checked + .payment-type-radio {
+.event-form .payment-type input[type="radio"]:checked + .event-type-radio {
   border-color: #e51b23;
 }
 
-.donation-form
+.event-form
   .payment-type
   input[type="radio"]:checked
-  + .payment-type-radio
+  + .event-type-radio
   + .centered-dot {
   visibility: visible;
 }
 
-.billing-information input {
+.event-information input {
   width: calc(50% - 14px);
   padding: 12px 30px;
   margin-top: 28px;
@@ -1497,12 +1497,21 @@ ul.tabs-nav .tab-nav.active {
   line-height: 1;
 }
 
-.billing-information input::placeholder {
+.event-information textarea {
+  padding: 12px 30px;
+  margin-top: 28px;
+  border: 1px solid #e0e0e0;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 0;
+}
+
+.event-information input::placeholder {
   color: #929191;
 }
 
 @media screen and (max-width: 768px) {
-  .billing-information input {
+  .event-information input {
     width: 100%;
   }
 }

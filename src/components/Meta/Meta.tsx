@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Meta = (props: Props) => {
   const { title } = props;
+
   return (
     <head>
       <title>{title}</title>
