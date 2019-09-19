@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="footer-widgets">
         <div className="container">
           <div className="row">
-            <div className="col-12 col-md-6 col-lg-3">
+            <div className="col-12 col-md-6 col-lg-9">
               <div className="foot-about">
                 <h2>
                   <a className="foot-logo" href="#">
@@ -17,10 +17,8 @@ const Footer = () => {
                 </h2>
 
                 <p>
-                  Lorem ipsum dolor sit amet, con sectetur adipiscing elit.
-                  Mauris temp us vestib ulum mauris.Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit. Mauris tempus vestib ulum
-                  mauris.Lorem ipsum dolo.
+                  STUDEM is a joint project between Silba - Initiative for
+                  Dialogue and Democracy and CREEDD (Green School).
                 </p>
 
                 <ul className="d-flex flex-wrap align-items-center">

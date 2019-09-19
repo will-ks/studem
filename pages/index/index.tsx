@@ -7,6 +7,7 @@ import Meta from "../../src/components/Meta/Meta";
 import Welcome from "./components/Welcome";
 import IconBoxes from "./components/IconBoxes";
 import Footer from "../../src/components/Footer/Footer";
+import { exampleEvents } from "../events";
 
 const Home = () => (
   <div>
@@ -129,124 +130,46 @@ const Home = () => (
               </div>
               {/*<!-- .section-heading -->*/}
 
-              <div className="event-wrap d-flex flex-wrap justify-content-between">
-                <figure className="m-0">
-                  <img src="static/images/event-1.jpg" alt="" />
-                </figure>
+              {exampleEvents.map(event => (
+                <div className="event-wrap d-flex flex-wrap justify-content-between">
+                  <figure className="m-0">
+                    <img src={event.image} alt={event.name} />
+                  </figure>
 
-                <div className="event-content-wrap">
-                  <header className="entry-header d-flex flex-wrap align-items-center">
-                    <h3 className="entry-title w-100 m-0">
-                      <a href="#">Fundraiser for Kids</a>
-                    </h3>
+                  <div className="event-content-wrap">
+                    <header className="entry-header d-flex flex-wrap align-items-center">
+                      <h3 className="entry-title w-100 m-0">
+                        <a href="#">{event.name}</a>
+                      </h3>
 
-                    <div className="posted-date">
-                      <a href="#">Aug 25, 2018 </a>
+                      <div className="posted-date">
+                        <a href="#">{event.date}</a>
+                      </div>
+                      {/*<!-- .posted-date -->*/}
+
+                      <div className="cats-links">
+                        <a href="#">{event.location}</a>
+                      </div>
+                      {/*<!-- .cats-links -->*/}
+                    </header>
+                    {/*<!-- .entry-header -->*/}
+
+                    <div className="entry-content">
+                      <p className="m-0">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Mauris tempus vestib ulum mauris.
+                      </p>
                     </div>
-                    {/*<!-- .posted-date -->*/}
+                    {/*<!-- .entry-content -->*/}
 
-                    <div className="cats-links">
-                      <a href="#">Ball Room New York</a>
+                    <div className="entry-footer">
+                      <a href="#">Read More</a>
                     </div>
-                    {/*<!-- .cats-links -->*/}
-                  </header>
-                  {/*<!-- .entry-header -->*/}
-
-                  <div className="entry-content">
-                    <p className="m-0">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Mauris tempus vestib ulum mauris.
-                    </p>
+                    {/*<!-- .entry-footer -->*/}
                   </div>
-                  {/*<!-- .entry-content -->*/}
-
-                  <div className="entry-footer">
-                    <a href="#">Read More</a>
-                  </div>
-                  {/*<!-- .entry-footer -->*/}
+                  {/*<!-- .event-content-wrap -->*/}
                 </div>
-                {/*<!-- .event-content-wrap -->*/}
-              </div>
-              {/*<!-- .event-wrap -->*/}
-
-              <div className="event-wrap d-flex flex-wrap justify-content-between">
-                <figure className="m-0">
-                  <img src="static/images/event-2.jpg" alt="" />
-                </figure>
-
-                <div className="event-content-wrap">
-                  <header className="entry-header d-flex flex-wrap align-items-center">
-                    <h3 className="entry-title w-100 m-0">
-                      <a href="#">Bring water to the childrens</a>
-                    </h3>
-
-                    <div className="posted-date">
-                      <a href="#">Aug 25, 2018 </a>
-                    </div>
-                    {/*<!-- .posted-date -->*/}
-
-                    <div className="cats-links">
-                      <a href="#">Ball Room New York</a>
-                    </div>
-                    {/*<!-- .cats-links -->*/}
-                  </header>
-                  {/*<!-- .entry-header -->*/}
-
-                  <div className="entry-content">
-                    <p className="m-0">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Mauris tempus vestib ulum mauris.
-                    </p>
-                  </div>
-                  {/*<!-- .entry-content -->*/}
-
-                  <div className="entry-footer">
-                    <a href="#">Read More</a>
-                  </div>
-                  {/*<!-- .entry-footer -->*/}
-                </div>
-                {/*<!-- .event-content-wrap -->*/}
-              </div>
-              {/*<!-- .event-wrap -->*/}
-
-              <div className="event-wrap d-flex flex-wrap justify-content-between">
-                <figure className="m-0">
-                  <img src="static/images/event-3.jpg" alt="" />
-                </figure>
-
-                <div className="event-content-wrap">
-                  <header className="entry-header d-flex flex-wrap align-items-center">
-                    <h3 className="entry-title w-100 m-0">
-                      <a href="#">Bring water to the childrens</a>
-                    </h3>
-
-                    <div className="posted-date">
-                      <a href="#">Aug 25, 2018 </a>
-                    </div>
-                    {/*<!-- .posted-date -->*/}
-
-                    <div className="cats-links">
-                      <a href="#">Ball Room New York</a>
-                    </div>
-                    {/*<!-- .cats-links -->*/}
-                  </header>
-                  {/*<!-- .entry-header -->*/}
-
-                  <div className="entry-content">
-                    <p className="m-0">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Mauris tempus vestib ulum mauris.
-                    </p>
-                  </div>
-                  {/*<!-- .entry-content -->*/}
-
-                  <div className="entry-footer">
-                    <a href="#">Read More</a>
-                  </div>
-                  {/*<!-- .entry-footer -->*/}
-                </div>
-                {/*<!-- .event-content-wrap -->*/}
-              </div>
+              ))}
               {/*<!-- .event-wrap -->*/}
             </div>
             {/*<!-- .upcoming-events -->*/}

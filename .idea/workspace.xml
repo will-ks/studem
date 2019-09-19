@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="286adcd1-5e1a-4e71-8c38-4b10e1b66873" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/pages/events/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/events/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/event-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/event-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/event-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/event-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/event-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/event-3.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,6 +20,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/index/index.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="172" selection-start-line="172" selection-end-line="172" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/thecharity/portfolio.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -52,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/events/index.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-168">
-              <caret line="134" column="51" selection-start-line="134" selection-start-column="51" selection-end-line="134" selection-end-column="51" />
+            <state relative-caret-position="640">
+              <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -65,19 +81,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/thecharity/news.html">
+        <entry file="file://$PROJECT_DIR$/src/components/Header/Header.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2456">
-              <caret line="298" column="16" selection-start-line="298" selection-start-column="16" selection-end-line="298" selection-end-column="16" />
+            <state relative-caret-position="-29">
+              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Header/Header.tsx">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+            <state relative-caret-position="357">
+              <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -123,8 +139,8 @@
       <find>billing-information</find>
       <find>billing</find>
       <find>donation-fo</find>
-      <find>.site-navigation</find>
       <find>payment-type-ra</find>
+      <find>.site-navigation</find>
       <find>upcoming</find>
     </findStrings>
   </component>
@@ -153,16 +169,16 @@
         <option value="$PROJECT_DIR$/pages/index.tsx" />
         <option value="$PROJECT_DIR$/pages/index/components/Welcome.tsx" />
         <option value="$PROJECT_DIR$/pages/index/components/IconBoxes.tsx" />
-        <option value="$PROJECT_DIR$/src/components/Footer/Footer.tsx" />
         <option value="$PROJECT_DIR$/pages/about/index.tsx" />
-        <option value="$PROJECT_DIR$/pages/index/index.tsx" />
         <option value="$PROJECT_DIR$/pages/contact/index.tsx" />
         <option value="$PROJECT_DIR$/template/thecharity/news.html" />
         <option value="$PROJECT_DIR$/src/components/Meta/Meta.tsx" />
         <option value="$PROJECT_DIR$/template/thecharity/style.css" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
-        <option value="$PROJECT_DIR$/pages/events/index.tsx" />
         <option value="$PROJECT_DIR$/src/components/Header/Header.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Footer/Footer.tsx" />
+        <option value="$PROJECT_DIR$/pages/index/index.tsx" />
+        <option value="$PROJECT_DIR$/pages/events/index.tsx" />
       </list>
     </option>
   </component>
@@ -368,12 +384,12 @@
       <workItem from="1567860560950" duration="3801000" />
       <workItem from="1568040901438" duration="7263000" />
       <workItem from="1568466887561" duration="10000" />
-      <workItem from="1568912122366" duration="9895000" />
+      <workItem from="1568912122366" duration="11391000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20969000" />
+    <option name="totallyTimeSpent" value="22465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -605,13 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="77" column="74" selection-start-line="77" selection-start-column="74" selection-end-line="77" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/thecharity/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
@@ -642,16 +651,6 @@
           <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="291" column="36" selection-start-line="121" selection-start-column="3" selection-end-line="291" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -727,20 +726,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/events/index.tsx">
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="134" column="51" selection-start-line="134" selection-start-column="51" selection-end-line="134" selection-end-column="51" />
+        <state relative-caret-position="-29">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="172" selection-start-line="172" selection-end-line="172" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.tsx">
+    <entry file="file://$PROJECT_DIR$/pages/events/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        <state relative-caret-position="640">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
