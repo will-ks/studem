@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="286adcd1-5e1a-4e71-8c38-4b10e1b66873" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pages/index/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/about-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/about-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,13 +15,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/index/index.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="26" column="145" selection-start-line="26" selection-start-column="145" selection-end-line="26" selection-end-column="145" />
+            <state relative-caret-position="497">
+              <caret line="292" column="14" selection-start-line="292" selection-start-column="4" selection-end-line="292" selection-end-column="14" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/contact/index.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="667" column="19" selection-start-line="667" selection-start-column="19" selection-end-line="667" selection-end-column="19" />
+            <state relative-caret-position="242">
+              <caret line="1866" column="28" selection-start-line="1866" selection-start-column="28" selection-end-line="1866" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -91,20 +101,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="328">
               <caret line="277" column="10" selection-start-line="117" selection-start-column="4" selection-end-line="277" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/charity2/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2961">
-              <caret line="955" column="3" selection-start-line="955" selection-start-column="3" selection-end-line="1082" selection-end-column="13" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#36327#36333#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -131,6 +127,9 @@
       <find>footer-bar</find>
       <find>icon-bo</find>
       <find>entry-con</find>
+      <find>.html</find>
+      <find>bg.jp</find>
+      <find>contact-b</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,11 +160,12 @@
         <option value="$PROJECT_DIR$/pages/index/components/IconBoxes.tsx" />
         <option value="$PROJECT_DIR$/template/thecharity/style.css" />
         <option value="$PROJECT_DIR$/src/components/Meta/Meta.tsx" />
-        <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/src/components/Footer/Footer.tsx" />
         <option value="$PROJECT_DIR$/pages/about/index.tsx" />
         <option value="$PROJECT_DIR$/src/components/Header/Header.tsx" />
         <option value="$PROJECT_DIR$/pages/index/index.tsx" />
+        <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/pages/contact/index.tsx" />
       </list>
     </option>
   </component>
@@ -200,6 +200,12 @@
               <item name="moldova" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="about" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="moldova" type="b2602c69:ProjectViewProjectNode" />
+              <item name="moldova" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="contact" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="moldova" type="b2602c69:ProjectViewProjectNode" />
@@ -348,12 +354,12 @@
       <workItem from="1567860560950" duration="3801000" />
       <workItem from="1568040901438" duration="7263000" />
       <workItem from="1568466887561" duration="10000" />
-      <workItem from="1568912122366" duration="4764000" />
+      <workItem from="1568912122366" duration="5360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15838000" />
+    <option name="totallyTimeSpent" value="16434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -646,13 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="667" column="19" selection-start-line="667" selection-start-column="19" selection-end-line="667" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
@@ -664,13 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="277" column="10" selection-start-line="117" selection-start-column="4" selection-end-line="277" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -693,10 +685,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/index/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="26" column="145" selection-start-line="26" selection-start-column="145" selection-end-line="26" selection-end-column="145" />
+        <state relative-caret-position="497">
+          <caret line="292" column="14" selection-start-line="292" selection-start-column="4" selection-end-line="292" selection-end-column="14" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="1866" column="28" selection-start-line="1866" selection-start-column="28" selection-end-line="1866" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/contact/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
