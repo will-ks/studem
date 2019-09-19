@@ -1,6 +1,7 @@
 import React from "react";
 
-const Header = () => {
+const Header = (props: Props) => {
+  const { currentItem } = props;
   return (
     <header className="site-header">
       <div className="nav-bar">
@@ -20,17 +21,33 @@ const Header = () => {
 
               <nav className="site-navigation d-flex justify-content-end align-items-center">
                 <ul className="d-flex flex-column flex-lg-row justify-content-lg-end align-content-center">
-                  <li className="current-menu-item">
-                    <a href="index.html">Home</a>
+                  <li
+                    className={
+                      currentItem === "home" ? "current-menu-item" : ""
+                    }
+                  >
+                    <a href="/">Home</a>
                   </li>
-                  <li>
-                    <a href="about.html">About us</a>
+                  <li
+                    className={
+                      currentItem === "about" ? "current-menu-item" : ""
+                    }
+                  >
+                    <a href="about">About us</a>
                   </li>
-                  <li>
-                    <a href="portfolio.html">Events</a>
+                  <li
+                    className={
+                      currentItem === "events" ? "current-menu-item" : ""
+                    }
+                  >
+                    <a href="events">Events</a>
                   </li>
-                  <li>
-                    <a href="contact.html">Contact</a>
+                  <li
+                    className={
+                      currentItem === "contact" ? "current-menu-item" : ""
+                    }
+                  >
+                    <a href="contact">Contact</a>
                   </li>
                 </ul>
               </nav>
@@ -50,3 +67,7 @@ const Header = () => {
 };
 
 export default Header;
+
+type Props = {
+  currentItem: "home" | "about" | "events" | "contact";
+};

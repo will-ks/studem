@@ -11,7 +11,7 @@ import Footer from "../../src/components/Footer/Footer";
 const Home = () => (
   <div>
     <Meta title="Home" />
-    <Header />
+    <Header currentItem={"home"} />
     <div className="home-page-welcome">
       <div className="container">
         <div className="row">
@@ -24,20 +24,15 @@ const Home = () => (
 
               <div className="entry-content mt-5">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Mauris tempus vestib ulum mauris quis aliquam. Lorem ipsum
-                  dolor sit amet, consectetur adipiscing elit. Mauris tempus
-                  vestibulum mauris quis aliquam. Integer accumsan sodales odio,
-                  id tempus velit ullamcorper id. Quisque at erat eu libero
-                  consequat tempus. Quisque molestie convallis tempus. Ut semper
-                  purus metus, a euismod sapien sodales ac. Duis viverra
-                  eleifend fermentum.
+                  STUDEM is a project aiming to strengthen youth democracy in
+                  Balti through the establishment and coordination of youth
+                  councils.
                 </p>
               </div>
               {/*<!-- .entry-content -->*/}
 
               <div className="entry-footer mt-5">
-                <a href="#" className="btn gradient-bg mr-2">
+                <a href="about" className="btn gradient-bg mr-2">
                   Read More
                 </a>
               </div>
@@ -63,7 +58,7 @@ const Home = () => (
         <div className="row">
           <div className="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
             <div className="icon-box">
-              <a href="about.html">
+              <a href="about">
                 <figure className="d-flex justify-content-center">
                   <img src="static/images/handshake.svg" alt="Member" />
                   <img src="static/images/handshake.svg" alt="Member" />
@@ -82,7 +77,7 @@ const Home = () => (
 
           <div className="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
             <div className="icon-box">
-              <a href="about.html">
+              <a href="about">
                 <figure className="d-flex justify-content-center">
                   <img src="static/images/statistics.svg" alt="Democracy" />
                   <img src="static/images/statistics.svg" alt="Democracy" />
@@ -101,7 +96,7 @@ const Home = () => (
 
           <div className="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
             <div className="icon-box">
-              <a href="events.html">
+              <a href="events">
                 <figure className="d-flex justify-content-center">
                   <img src="static/images/balloons.svg" alt="Events" />
                   <img src="static/images/balloons.svg" alt="Events" />
@@ -276,7 +271,7 @@ const Home = () => (
                   {/*<!-- .entry-content -->*/}
 
                   <div className="entry-footer mt-5">
-                    <a href="events.html" className="btn gradient-bg mr-2">
+                    <a href="events" className="btn gradient-bg mr-2">
                       Learn More
                     </a>
                   </div>
