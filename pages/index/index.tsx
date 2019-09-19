@@ -267,17 +267,16 @@ const Home = () => (
 
               <div className="cause-wrap d-flex flex-wrap justify-content-between">
                 <div className="cause-content-wrap">
-                  <div className="entry-content">
+                  <div className="entry-content" style={{ marginTop: "0" }}>
                     <p className="m-0">
-                      You can host your events at STUDEM. Lorem ipsum dolor sit
-                      amet, consectetur adipiscing elit. Mauris tempus vestib
-                      ulum mauris. Lorem ipsum dolor sit amet, consectetur.
+                      The STUDEM space can be booked for events and meetings for
+                      young people.
                     </p>
                   </div>
                   {/*<!-- .entry-content -->*/}
 
                   <div className="entry-footer mt-5">
-                    <a href="#" className="btn gradient-bg mr-2">
+                    <a href="events.html" className="btn gradient-bg mr-2">
                       Learn More
                     </a>
                   </div>

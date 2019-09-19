@@ -4,10 +4,6 @@
     <list default="true" id="286adcd1-5e1a-4e71-8c38-4b10e1b66873" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/pages/index/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/foot-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/foot-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/logo.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/index/index.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="117" column="18" selection-start-line="117" selection-start-column="18" selection-end-line="117" selection-end-column="18" />
+            <state relative-caret-position="238">
+              <caret line="278" column="40" selection-start-line="278" selection-start-column="40" selection-end-line="278" selection-end-column="40" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -41,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="484">
+              <caret line="77" column="74" selection-start-line="77" selection-start-column="74" selection-end-line="77" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -67,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="633" column="23" selection-start-line="633" selection-start-column="23" selection-end-line="633" selection-end-column="23" />
+            <state relative-caret-position="241">
+              <caret line="667" column="19" selection-start-line="667" selection-start-column="19" selection-end-line="667" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -126,6 +122,7 @@
       <find>Hello</find>
       <find>footer-bar</find>
       <find>icon-bo</find>
+      <find>entry-con</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -156,10 +153,10 @@
         <option value="$PROJECT_DIR$/pages/index/components/IconBoxes.tsx" />
         <option value="$PROJECT_DIR$/template/thecharity/style.css" />
         <option value="$PROJECT_DIR$/src/components/Meta/Meta.tsx" />
-        <option value="$PROJECT_DIR$/src/components/Footer/Footer.tsx" />
         <option value="$PROJECT_DIR$/src/components/Header/Header.tsx" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/pages/index/index.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Footer/Footer.tsx" />
       </list>
     </option>
   </component>
@@ -336,12 +333,12 @@
       <workItem from="1567860560950" duration="3801000" />
       <workItem from="1568040901438" duration="7263000" />
       <workItem from="1568466887561" duration="10000" />
-      <workItem from="1568912122366" duration="3446000" />
+      <workItem from="1568912122366" duration="3872000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14520000" />
+    <option name="totallyTimeSpent" value="14946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -634,10 +631,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.tsx">
+    <entry file="file://$PROJECT_DIR$/template/thecharity/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="315">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -648,27 +645,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/thecharity/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="633" column="23" selection-start-line="633" selection-start-column="23" selection-end-line="633" selection-end-column="23" />
+        <state relative-caret-position="241">
+          <caret line="667" column="19" selection-start-line="667" selection-start-column="19" selection-end-line="667" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/index/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="117" column="18" selection-start-line="117" selection-start-column="18" selection-end-line="117" selection-end-column="18" />
+        <state relative-caret-position="238">
+          <caret line="278" column="40" selection-start-line="278" selection-start-column="40" selection-end-line="278" selection-end-column="40" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Footer/Footer.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="77" column="74" selection-start-line="77" selection-start-column="74" selection-end-line="77" selection-end-column="74" />
         </state>
       </provider>
     </entry>
