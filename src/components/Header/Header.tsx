@@ -11,7 +11,7 @@ const Header = (props: Props) => {
           <div className="row">
             <div className="col-12 d-flex flex-wrap justify-content-between align-items-center">
               <div className="site-branding d-flex align-items-center">
-                <a className="d-block" href="index.html" rel="home">
+                <a className="d-block" href="/" rel="home">
                   <img
                     className="d-block"
                     src="static/images/logo.png"

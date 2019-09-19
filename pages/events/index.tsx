@@ -42,14 +42,18 @@ const Events = () => {
                         will let you know if your event is approved.
                       </p>
 
-                      <form className="event-form">
+                      <form
+                        className="event-form"
+                        action="https://formspree.io/willschaller@gmail.com"
+                        method="POST"
+                      >
                         <div className="payment-type d-flex flex-wrap align-items-center">
                           <h4 className="w-100 mt-5">Event Type</h4>
 
                           <label className="d-flex align-items-center mt-4">
                             <input
                               type="radio"
-                              name="event_type"
+                              name="Event type"
                               value="Meeting"
                             />
                             <span className="event-type-radio"></span>
@@ -60,7 +64,7 @@ const Events = () => {
                           <label className="d-flex align-items-center mt-4">
                             <input
                               type="radio"
-                              name="event_type"
+                              name="Event type"
                               value="Social event"
                             />
                             <span className="event-type-radio"></span>
@@ -71,7 +75,7 @@ const Events = () => {
                           <label className="d-flex align-items-center mt-4">
                             <input
                               type="radio"
-                              name="event_type"
+                              name="Event type"
                               value="Activity"
                             />
                             <span className="event-type-radio"></span>
@@ -87,32 +91,50 @@ const Events = () => {
                             type="text"
                             placeholder="Name of event"
                             style={{ width: "100%" }}
+                            name="Event name"
+                            required
                           />
                           <textarea
                             className="form-control"
                             id="exampleFormControlTextarea1"
                             rows={4}
                             placeholder="Describe your event"
+                            name="Description"
+                            required
                           ></textarea>
                           <textarea
                             className="form-control"
                             id="exampleFormControlTextarea1"
                             rows={4}
                             placeholder="Requirements"
+                            name="Requirements"
+                            required
                           ></textarea>
                           <textarea
                             className="form-control"
                             id="exampleFormControlTextarea1"
                             rows={4}
                             placeholder="Risk assessment"
+                            name="Risk assessment"
+                            required
                           ></textarea>
                         </div>
 
                         <div className="event-information  d-flex flex-wrap justify-content-between align-items-center">
                           <h4 className="w-100 mt-5 mb-3">Your Information</h4>
 
-                          <input type="text" placeholder="Name" />
-                          <input type="email" placeholder="E-mail" />
+                          <input
+                            type="text"
+                            placeholder="Name"
+                            name="Submitter's name"
+                            required
+                          />
+                          <input
+                            type="email"
+                            placeholder="E-mail"
+                            name="Submitter's email"
+                            required
+                          />
                         </div>
 
                         <input
