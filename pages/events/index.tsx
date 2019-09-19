@@ -8,6 +8,7 @@ type Event = {
   image: string;
   date: string;
   location: "Conference Room" | "Main Hall" | "Meeting Room 1";
+  url: string;
 };
 
 const dateToString = (date: Date) => {
@@ -22,19 +23,22 @@ export const exampleEvents: Event[] = [
     name: "Extraordinary General Assembly",
     image: "static/images/event-1.jpg",
     date: "11/11/2019 15:30:00",
-    location: "Main Hall"
+    location: "Main Hall",
+    url: "https://www.facebook.com/events/297300527816692/"
   },
   {
     name: "National Congress 2019: General Assembly and 25th anniversary",
     image: "static/images/event-2.jpg",
     date: "16/12/2019 16:40:00",
-    location: "Conference Room"
+    location: "Conference Room",
+    url: "https://www.facebook.com/events/610969319341624/"
   },
   {
     name: "Teambuilding",
     image: "static/images/event-3.jpg",
     date: "20/12/2019 19:00:00",
-    location: "Meeting Room 1"
+    location: "Meeting Room 1",
+    url: "https://www.facebook.com/events/2527018503985817/"
   }
 ];
 
@@ -193,7 +197,7 @@ const Events = () => {
                     {exampleEvents.map(event => (
                       <li className="d-flex flex-wrap justify-content-between align-items-center">
                         <figure>
-                          <a href="#">
+                          <a href={event.url}>
                             <img
                               src={event.image}
                               alt={event.name}
@@ -204,15 +208,15 @@ const Events = () => {
 
                         <div className="entry-content">
                           <h3 className="entry-title">
-                            <a href="#">{event.name}</a>
+                            <a href={event.url}>{event.name}</a>
                           </h3>
 
                           <div className="post-metas d-flex flex-wrap align-items-center">
                             <span className="posted-date">
-                              <a href="#">{event.date}</a>
+                              <a href={event.url}>{event.date}</a>
                             </span>
                             <span className="event-location">
-                              <a href="#">{event.location}</a>
+                              <a href={event.url}>{event.location}</a>
                             </span>
                           </div>
 

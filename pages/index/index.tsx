@@ -139,16 +139,16 @@ const Home = () => (
                   <div className="event-content-wrap">
                     <header className="entry-header d-flex flex-wrap align-items-center">
                       <h3 className="entry-title w-100 m-0">
-                        <a href="#">{event.name}</a>
+                        <a href={event.url}>{event.name}</a>
                       </h3>
 
                       <div className="posted-date">
-                        <a href="#">{event.date}</a>
+                        <a href={event.url}>{event.date}</a>
                       </div>
                       {/*<!-- .posted-date -->*/}
 
                       <div className="cats-links">
-                        <a href="#">{event.location}</a>
+                        <a href={event.url}>{event.location}</a>
                       </div>
                       {/*<!-- .cats-links -->*/}
                     </header>
@@ -163,7 +163,7 @@ const Home = () => (
                     {/*<!-- .entry-content -->*/}
 
                     <div className="entry-footer">
-                      <a href="#">Read More</a>
+                      <a href={event.url}>Read More</a>
                     </div>
                     {/*<!-- .entry-footer -->*/}
                   </div>
