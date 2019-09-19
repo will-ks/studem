@@ -619,6 +619,7 @@ ul.tabs-nav .tab-nav.active {
   background: #ecf2f5;
   text-align: center;
   transition: all 0.35s;
+  height: 100%;
 }
 
 .icon-box:hover,
@@ -627,6 +628,10 @@ ul.tabs-nav .tab-nav.active {
   background: #e51b23;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e51b23', endColorstr='#ff3600',GradientType=1 ); /* ie6-9 */
   color: #fff;
+}
+
+.icon-box a {
+  text-decoration: none;
 }
 
 .icon-box figure img:nth-of-type(1) {

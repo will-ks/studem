@@ -63,61 +63,58 @@ const Home = () => (
         <div className="row">
           <div className="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
             <div className="icon-box">
-              <figure className="d-flex justify-content-center">
-                <img src="static/images/handshake.svg" alt="Member" />
-                <img src="static/images/handshake.svg" alt="Member" />
-              </figure>
+              <a href="about.html">
+                <figure className="d-flex justify-content-center">
+                  <img src="static/images/handshake.svg" alt="Member" />
+                  <img src="static/images/handshake.svg" alt="Member" />
+                </figure>
 
-              <header className="entry-header">
-                <h3 className="entry-title">Become a Member</h3>
-              </header>
+                <header className="entry-header">
+                  <h3 className="entry-title">Get Involved</h3>
+                </header>
 
-              <div className="entry-content">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Mauris tempus vestib ulum mauris quis aliquam.
-                </p>
-              </div>
+                <div className="entry-content">
+                  <p>Learn how you can get involved in STUDEM</p>
+                </div>
+              </a>
             </div>
           </div>
 
           <div className="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
             <div className="icon-box">
-              <figure className="d-flex justify-content-center">
-                <img src="static/images/statistics.svg" alt="Democracy" />
-                <img src="static/images/statistics.svg" alt="Democracy" />
-              </figure>
+              <a href="about.html">
+                <figure className="d-flex justify-content-center">
+                  <img src="static/images/statistics.svg" alt="Democracy" />
+                  <img src="static/images/statistics.svg" alt="Democracy" />
+                </figure>
 
-              <header className="entry-header">
-                <h3 className="entry-title">Democracy</h3>
-              </header>
+                <header className="entry-header">
+                  <h3 className="entry-title">Democracy</h3>
+                </header>
 
-              <div className="entry-content">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Mauris tempus vestib ulum mauris quis aliquam.
-                </p>
-              </div>
+                <div className="entry-content">
+                  <p>Learn about our democratic processes</p>
+                </div>
+              </a>
             </div>
           </div>
 
           <div className="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
             <div className="icon-box">
-              <figure className="d-flex justify-content-center">
-                <img src="static/images/balloons.svg" alt="Events" />
-                <img src="static/images/balloons.svg" alt="Events" />
-              </figure>
+              <a href="events.html">
+                <figure className="d-flex justify-content-center">
+                  <img src="static/images/balloons.svg" alt="Events" />
+                  <img src="static/images/balloons.svg" alt="Events" />
+                </figure>
 
-              <header className="entry-header">
-                <h3 className="entry-title">Events</h3>
-              </header>
+                <header className="entry-header">
+                  <h3 className="entry-title">Events</h3>
+                </header>
 
-              <div className="entry-content">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Mauris tempus vestib ulum mauris quis aliquam.
-                </p>
-              </div>
+                <div className="entry-content">
+                  <p>See our events and learn about starting your own</p>
+                </div>
+              </a>
             </div>
           </div>
         </div>

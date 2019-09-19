@@ -13,6 +13,7 @@ const Header = () => {
                     className="d-block"
                     src="static/images/logo.png"
                     alt="logo"
+                    style={{ height: "47px" }}
                   />
                 </a>
               </div>
@@ -24,9 +25,6 @@ const Header = () => {
                   </li>
                   <li>
                     <a href="about.html">About us</a>
-                  </li>
-                  <li>
-                    <a href="causes.html">Democracy</a>
                   </li>
                   <li>
                     <a href="portfolio.html">Events</a>

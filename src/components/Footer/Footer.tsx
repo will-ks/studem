@@ -8,7 +8,11 @@ const Footer = () => {
               <div className="foot-about">
                 <h2>
                   <a className="foot-logo" href="#">
-                    <img src="../../static/images/foot-logo.png" alt="" />
+                    <img
+                      src="../../static/images/foot-logo.png"
+                      alt=""
+                      style={{ height: "35px" }}
+                    />
                   </a>
                 </h2>
 
@@ -22,11 +26,6 @@ const Footer = () => {
                 <ul className="d-flex flex-wrap align-items-center">
                   <li>
                     <a href="#">
-                      <i className="fa fa-pinterest-p"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
@@ -35,84 +34,9 @@ const Footer = () => {
                       <i className="fa fa-twitter"></i>
                     </a>
                   </li>
-                  <li>
-                    <a href="#">
-                      <i className="fa fa-dribbble"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fa fa-behance"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fa fa-linkedin"></i>
-                    </a>
-                  </li>
                 </ul>
               </div>
               {/*<!-- .foot-about -->*/}
-            </div>
-            {/*<!-- .col -->*/}
-
-            <div className="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
-              <h2>Useful Links</h2>
-
-              <ul>
-                <li>
-                  <a href="#">Privacy Polticy</a>
-                </li>
-                <li>
-                  <a href="#">Become a Volunteer</a>
-                </li>
-                <li>
-                  <a href="#">Donate</a>
-                </li>
-                <li>
-                  <a href="#">Testimonials</a>
-                </li>
-                <li>
-                  <a href="#">Causes</a>
-                </li>
-                <li>
-                  <a href="#">Portfolio</a>
-                </li>
-                <li>
-                  <a href="#">News</a>
-                </li>
-              </ul>
-            </div>
-            {/*<!-- .col -->*/}
-
-            <div className="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
-              <div className="foot-latest-news">
-                <h2>Latest News</h2>
-
-                <ul>
-                  <li>
-                    <h3>
-                      <a href="#">A new cause to help</a>
-                    </h3>
-                    <div className="posted-date">MArch 12, 2018</div>
-                  </li>
-
-                  <li>
-                    <h3>
-                      <a href="#">We love to help people</a>
-                    </h3>
-                    <div className="posted-date">MArch 12, 2018</div>
-                  </li>
-
-                  <li>
-                    <h3>
-                      <a href="#">The new ideas for helping</a>
-                    </h3>
-                    <div className="posted-date">MArch 12, 2018</div>
-                  </li>
-                </ul>
-              </div>
-              {/*<!-- .foot-latest-news -->*/}
             </div>
             {/*<!-- .col -->*/}
 
@@ -123,28 +47,19 @@ const Footer = () => {
                 <ul>
                   <li>
                     <i className="fa fa-phone"></i>
-                    <span>+45 677 8993000 223</span>
+                    <span>+45 555 8484</span>
                   </li>
                   <li>
                     <i className="fa fa-envelope"></i>
-                    <span>office@template.com</span>
+                    <span>office@studem.com</span>
                   </li>
                   <li>
                     <i className="fa fa-map-marker"></i>
-                    <span>Main Str. no 45-46, b3, 56832, Los Angeles, CA</span>
+                    <span>Stefan cel Mare St, Balti, Moldova</span>
                   </li>
                 </ul>
               </div>
               {/*<!-- .foot-contact -->*/}
-
-              <div className="subscribe-form">
-                <form className="d-flex flex-wrap align-items-center">
-                  <input type="email" placeholder="Your email" />
-                  <input type="submit" value="send" />
-                </form>
-                {/*<!-- .flex -->*/}
-              </div>
-              {/*<!-- .search-widget -->*/}
             </div>
             {/*<!-- .col -->*/}
           </div>
