@@ -6,6 +6,7 @@ import Header from "../../src/components/Header/Header";
 import Meta from "../../src/components/Meta/Meta";
 import Welcome from "./components/Welcome";
 import IconBoxes from "./components/IconBoxes";
+import Footer from "../../src/components/Footer/Footer";
 
 const Home = () => (
   <div>
@@ -298,6 +299,7 @@ const Home = () => (
       {/*<!-- .container -->*/}
     </div>
     {/*<!-- .home-page-events -->*/}
+    <Footer />
   </div>
 );
 
