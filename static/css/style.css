@@ -2127,3 +2127,8 @@ ul.tabs-nav .tab-nav.active {
   background: #131212;
   text-align: center;
 }
+
+.obvious-link {
+  color: #1b6d85;
+  text-decoration: underline;
+}

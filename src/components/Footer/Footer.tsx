@@ -23,13 +23,13 @@ const Footer = () => {
 
                 <ul className="d-flex flex-wrap align-items-center">
                   <li>
-                    <a href="#">
+                    <a href="https://www.facebook.com/pg/studemproject/">
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
-                      <i className="fa fa-twitter"></i>
+                    <a href="https://www.instagram.com/studem_md/">
+                      <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                 </ul>
@@ -43,17 +43,17 @@ const Footer = () => {
                 <h2>Contact</h2>
 
                 <ul>
-                  <li>
-                    <i className="fa fa-phone"></i>
-                    <span>+45 555 8484</span>
-                  </li>
+                  {/*<li>*/}
+                  {/*  <i className="fa fa-phone"></i>*/}
+                  {/*  <span>+45 555 8484</span>*/}
+                  {/*</li>*/}
                   <li>
                     <i className="fa fa-envelope"></i>
-                    <span>office@studem.com</span>
+                    <span>office@studem.md</span>
                   </li>
                   <li>
                     <i className="fa fa-map-marker"></i>
-                    <span>Stefan cel Mare St, Balti, Moldova</span>
+                    <span>Strada 31 August 14A, Balti, Moldova</span>
                   </li>
                 </ul>
               </div>

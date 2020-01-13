@@ -51,7 +51,7 @@ const Events = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h1>Apply</h1>
+              <h1>Grants</h1>
             </div>
             {/*<!-- .col -->*/}
           </div>
@@ -70,27 +70,34 @@ const Events = () => {
                   <div className="event-form-wrap">
                     <h2>Apply for grant</h2>
 
-                    <h4 className="mt-5">Use this to apply for grants</h4>
+                    {/*<h4 className="mt-5">*/}
+                    {/*  Grants available for qualifying projects*/}
+                    {/*</h4>*/}
+                    {/*<p>*/}
+                    {/*  Lorem ipsum dolor sit amet, consectetur adipiscing elit,*/}
+                    {/*  sed do eiusmod tempor incididunt ut labore et dolore magna*/}
+                    {/*  aliqua. Ut enim ad minim veniam, quis nostrud exercitation*/}
+                    {/*  ullamco laboris nisi ut aliquip ex ea commodo consequat.*/}
+                    {/*  Duis aute irure dolor in reprehenderit in voluptate velit*/}
+                    {/*  esse cillum dolore eu fugiat nulla pariatur. Excepteur*/}
+                    {/*  sint occaecat cupidatat non proident, sunt in culpa qui*/}
+                    {/*  officia deserunt mollit anim id est laborum.*/}
+                    {/*</p>*/}
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum. Please{" "}
-                      <a href={"static/files/application-form.docx"}>
-                        download the application form
+                      <a
+                        href={"static/files/Application-form.docx"}
+                        className={"obvious-link"}
+                      >
+                        Click here to download the application form.
                       </a>
-                      , complete it and use the form below to submit the
-                      application.
                     </p>
 
                     <form
                       className="event-form"
-                      action="https://formspree.io/willschaller@gmail.com"
+                      action="https://getform.io/f/5844d173-1a79-4bb8-bdc0-8a03cfb0f535"
                       method="POST"
+                      accept-charset="UTF-8"
+                      encType="multipart/form-data"
                     >
                       <div className="event-information  ">
                         <h4 className="w-100 mt-5 mb-3">
@@ -99,7 +106,8 @@ const Events = () => {
                         <input
                           type="file"
                           style={{ width: "100%" }}
-                          name="Application form"
+                          name="file"
+                          accept=".doc,.docx,.pdf,.odf"
                           required
                         />
                       </div>
