@@ -44,7 +44,7 @@ const Home = () => (
           {/*<!-- .col -->*/}
 
           <div className="col-12 col-lg-6 mt-4 order-1 order-lg-2">
-            <img src="static/images/welcome.jpg" alt="welcome" />
+            <img src="static/images/studem.png" alt="welcome" />
           </div>
           {/*<!-- .col -->*/}
         </div>
