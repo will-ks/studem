@@ -19,22 +19,25 @@ const Home = () => (
           <div className="col-12 col-lg-6 order-2 order-lg-1">
             <div className="welcome-content">
               <header className="entry-header">
-                <h2 className="entry-title">Welcome to STUDEM</h2>
+                <h2 className="entry-title">STUDEM</h2>
               </header>
               {/*<!-- .entry-header -->*/}
 
               <div className="entry-content mt-5">
                 <p>
-                  STUDEM is a project aiming to strengthen youth democracy in
-                  Balti through the establishment and coordination of youth
-                  councils.
+                  STUDEM este un proiect care are drept scop consolidarea
+                  democraţiei în rândul tinerilor din Bălţi, prin înfiinţarea şi
+                  coordonarea consiliilor de elevi. Acest proiect, care este în
+                  comun acord cu organizaţia de tineret locală CREEDD şi Silba,
+                  tinde spre consolidarea democraţiei generale a Moldovei prin
+                  crearea obiceiurilor democratice pentru tineri.
                 </p>
               </div>
               {/*<!-- .entry-content -->*/}
 
               <div className="entry-footer mt-5">
                 <a href="about" className="btn gradient-bg mr-2">
-                  Read More
+                  Citeste mai mult
                 </a>
               </div>
               {/*<!-- .entry-footer -->*/}

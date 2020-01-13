@@ -32,28 +32,28 @@ const Header = (props: Props) => {
                       currentItem === "home" ? "current-menu-item" : ""
                     }
                   >
-                    <a href="/">Home</a>
+                    <a href="/">Acasă</a>
                   </li>
                   <li
                     className={
                       currentItem === "about" ? "current-menu-item" : ""
                     }
                   >
-                    <a href="about">About us</a>
+                    <a href="about">Despre noi</a>
                   </li>
                   <li
                     className={
                       currentItem === "events" ? "current-menu-item" : ""
                     }
                   >
-                    <a href="events">Events</a>
+                    <a href="events">Evenimente</a>
                   </li>
                   <li
                     className={
                       currentItem === "contact" ? "current-menu-item" : ""
                     }
                   >
-                    <a href="contact">Contact</a>
+                    <a href="contact">A lua legatura</a>
                   </li>
                 </ul>
               </nav>

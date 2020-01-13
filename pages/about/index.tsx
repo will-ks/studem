@@ -12,7 +12,7 @@ const About = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h1>About Us</h1>
+              <h1>Despre noi</h1>
             </div>
             {/*<!-- .col -->*/}
           </div>
@@ -36,49 +36,52 @@ const About = () => {
 
                 <div className="entry-content mt-5">
                   <p>
-                    STUDEM is a project aiming to strengthen youth democracy in
-                    Balti through the establishment and coordination of youth
-                    councils. The project, which is a joint effort between the
-                    local youth orgnisation CREED and Silba, aims to strengthen
-                    overall Moldovan democracy by creating democratic habits for
-                    young people.
-                  </p>
-
-                  <p>
-                    Working with local young people in ages between 16 and 35,
-                    the project has developed a forum for young people to
-                    express their opinions and learn about democratic practices
-                    and processes. This strategy of process-learning introduces
-                    the Moldovan youth to democratic principles based on
-                    dialogue, accountability and cooperation. Not only do they
-                    learn about the structural composition of decision-making
-                    entities and institutions, but they’re also introduced and
-                    trained in budgeting, leadership, social entrepreneurship
-                    and inclusivity. The entire project takes a broad focus on
-                    voluntarism, equality and transparency, in order to create a
-                    lasting democratic perception amongst the participants.
+                    STUDEM este un proiect care are drept scop consolidarea
+                    democraţiei în rândul tinerilor din Bălţi, prin înfiinţarea
+                    şi coordonarea consiliilor de elevi. Acest proiect, care
+                    este în comun acord cu organizaţia de tineret locală CREEDD
+                    şi Silba, tinde spre consolidarea democraţiei generale a
+                    Moldovei prin crearea obiceiurilor democratice pentru
+                    tineri.
                   </p>
                   <p>
-                    The project was launched in 2016 where the project-group was
-                    established and work on planning the project was initiated
-                    and a series of youth councils were created. Since
-                    then,several training sessions have been held to help the
-                    local participants in understanding democratic processes and
-                    build their own influence. A long-term goal for the project
-                    is also to help create a network between the participating
-                    youth councils through a series of networking events which
-                    started in November 2018.
+                    Lucrând cu tinerii cu vârsta cuprinsă între 16 şi 35 ani, în
+                    cadrul proiectului s-a dezvoltat un forum pentru ca tinerii
+                    să-şi exprime opiniile, dar şi să afle despre practicile şi
+                    procesele democratice. Această strategie este un proces de
+                    învăţare, care informează tinerii despre principiile
+                    democratice bazate pe comunicare, responsabilitate şi
+                    cooperare. Ei află nu doar despre compoziţia structurală a
+                    entităţilor şi a instituţiilor, care iau decizii, dar tot
+                    odată aceştia sunt instruţi în bugetare, lidership,
+                    antreprenoriat social şi inclusivitate. Proiectul ,în
+                    totalitate, este bazat pe voluntarism, egalitate şi
+                    transparenţă, pentru a crea o percepţie democratică stabilă
+                    şi puternică între tineri.
                   </p>
-
                   <p>
-                    The daily organisation of the project is done by a project
-                    group consisting of Moldovan coordinators from CREEDD and
-                    Danish coordinators from Silba. These coordinators are
-                    paired on specific areas of importance, so every aspect of
-                    the project is overseen by a member of each organisation.
-                    This is done both to ensure that the project remains a joint
-                    venture, but also as part of the project itself where the
-                    Moldovan and Danish participants learn from each other.
+                    Proiectul a fost lansat în anul 2016, când a fost înfiinţat
+                    grupul de proiect şi au fost iniţiate lucrări în planificare
+                    a proiectului, dar şi au fost create o serie de consilii de
+                    tineret. Între timp s-au petrecut câteva sesiuni de formare,
+                    pentru a ajuta tinerii să înţeleagă procesele democratice şi
+                    cum să-şi construiască propria influienţă. Un obiectiv
+                    pentru o perioadă îndelungată este de asemenea de a ajuta la
+                    crearea unei relaţii între consiliile de tineret, care au
+                    participat la o serie de evenimente ce au început în
+                    noiembrie 2018.
+                  </p>
+                  <p>
+                    Organizarea zilnică a proiectului este realizată de un grup
+                    de coordonatori din Bălţi ai organizaţiei CREEDD şi
+                    coordonatori denezi din Silba. Aceşti coordonatori, la
+                    rândul său, sunt grupaţi, fiind responsabili de un anumit
+                    domeniu, astfel încât fiecare aspect al proiectului este
+                    monitorizat de câte un membru al echipei. Acest fapt se
+                    ralizează pentru a ne asigura că proiectul rămâne o muncă
+                    comună, dar şi că proiectul în sine întruneşte unele
+                    abilităţi, unde tinerii participanţi moldoveni şi danezi
+                    învaţă unii de la alţii.
                   </p>
                 </div>
                 {/*<!-- .entry-content -->*/}
