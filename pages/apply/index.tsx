@@ -51,7 +51,7 @@ const Events = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h1>Grants</h1>
+              <h1>Aplicații</h1>
             </div>
             {/*<!-- .col -->*/}
           </div>
@@ -68,7 +68,7 @@ const Events = () => {
               <div className="row">
                 <div className="col-12">
                   <div className="event-form-wrap">
-                    <h2>Apply for grant</h2>
+                    {/*<h2>Apply for grant</h2>*/}
 
                     {/*<h4 className="mt-5">*/}
                     {/*  Grants available for qualifying projects*/}
@@ -88,7 +88,7 @@ const Events = () => {
                         href={"static/files/Application-form.docx"}
                         className={"obvious-link"}
                       >
-                        Click here to download the application form.
+                        Faceți clic aici pentru a descărca formularul de cerere.
                       </a>
                     </p>
 
@@ -101,7 +101,7 @@ const Events = () => {
                     >
                       <div className="event-information  ">
                         <h4 className="w-100 mt-5 mb-3">
-                          Upload your completed application form
+                          Încărcați formularul de cerere completat
                         </h4>
                         <input
                           type="file"
@@ -113,11 +113,11 @@ const Events = () => {
                       </div>
 
                       <div className="event-information  d-flex flex-wrap justify-content-between align-items-center">
-                        <h4 className="w-100 mt-5 mb-3">Your Information</h4>
+                        <h4 className="w-100 mt-5 mb-3">Informatia ta</h4>
 
                         <input
                           type="text"
-                          placeholder="Name"
+                          placeholder="Nume"
                           name="Submitter's name"
                           required
                         />
@@ -132,7 +132,7 @@ const Events = () => {
                       <input
                         className="btn gradient-bg mt-5"
                         type="submit"
-                        value="Submit"
+                        value="Trimite"
                       />
                     </form>
                   </div>

@@ -12,7 +12,7 @@ const About = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h1>Contact</h1>
+              <h1>A lua legatura</h1>
             </div>
             {/*<!-- .col -->*/}
           </div>
@@ -27,25 +27,23 @@ const About = () => {
           <div className="row">
             <div className="col-12 col-lg-5">
               <div className="entry-content">
-                <h2>Get in touch</h2>
-
                 <p>
-                  Please feel free to contact us with any questions or comments
-                  you have.
+                  Vă rugăm să nu ezitați să ne contactați pentru orice întrebări
+                  sau comentarii.
                 </p>
 
                 <ul className="contact-info p-0">
-                  <li>
-                    <i className="fa fa-phone"></i>
-                    <span>+45 677 8993000 223</span>
-                  </li>
+                  {/*<li>*/}
+                  {/*  <i className="fa fa-phone"></i>*/}
+                  {/*  <span>+45 677 8993000 223</span>*/}
+                  {/*</li>*/}
                   <li>
                     <i className="fa fa-envelope"></i>
                     <span>office@silba.com</span>
                   </li>
                   <li>
                     <i className="fa fa-map-marker"></i>
-                    <span>Stefan cel Mare St, Balti, Moldova</span>
+                    <span>Strada 31 August 14A, Balti, Moldova</span>
                   </li>
                 </ul>
               </div>
@@ -54,11 +52,12 @@ const About = () => {
 
             <div className="col-12 col-lg-7">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19171.015605467688!2d27.918815339368305!3d47.76169357364134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cb60d2ae2eaa3d%3A0x4c65648f23a9dbe2!2sMonumentul%20lui%20%C8%98tefan%20cel%20Mare!5e0!3m2!1sen!2sdk!4v1568925145852!5m2!1sen!2sdk"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2682.255109705069!2d27.912542415435606!3d47.757105885562304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cb6730d8cc0dbb%3A0x879509e2ab87050a!2sstrada%2031%20August%201989%2014%2C%20B%C4%83l%C8%9Bi%203100%2C%20Moldova!5e0!3m2!1sen!2shu!4v1578935862959!5m2!1sen!2shu"
                 width="600"
                 height="450"
                 frameBorder="0"
-                style={{ border: "0" }}
+                style={{ border: 0 }}
+                allowFullScreen={false}
               ></iframe>
               {/*<!-- .contact-form -->*/}
             </div>

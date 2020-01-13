@@ -46,7 +46,7 @@ const Header = (props: Props) => {
                       currentItem === "events" ? "current-menu-item" : ""
                     }
                   >
-                    <a href="events">Evenimente</a>
+                    <a href="apply">Aplicații</a>
                   </li>
                   <li
                     className={
