@@ -8,6 +8,7 @@ type Event = {
   image: string;
   date: string;
   location: "Conference Room" | "Main Hall" | "Meeting Room 1";
+  description: string;
   url: string;
 };
 
@@ -18,29 +19,7 @@ const dateToString = (date: Date) => {
     .replace(/-/g, "");
 };
 
-export const exampleEvents: Event[] = [
-  {
-    name: "Extraordinary General Assembly",
-    image: "static/images/event-1.jpg",
-    date: "11/11/2019 15:30:00",
-    location: "Main Hall",
-    url: "https://www.facebook.com/events/297300527816692/"
-  },
-  {
-    name: "National Congress 2019: General Assembly and 25th anniversary",
-    image: "static/images/event-2.jpg",
-    date: "16/12/2019 16:40:00",
-    location: "Conference Room",
-    url: "https://www.facebook.com/events/610969319341624/"
-  },
-  {
-    name: "Teambuilding",
-    image: "static/images/event-3.jpg",
-    date: "20/12/2019 19:00:00",
-    location: "Meeting Room 1",
-    url: "https://www.facebook.com/events/2527018503985817/"
-  }
-];
+export const exampleEvents: Event[] = [];
 
 const Events = () => {
   return (
@@ -220,10 +199,7 @@ const Events = () => {
                             </span>
                           </div>
 
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit.
-                          </p>
+                          <p>{event.description}</p>
                         </div>
                       </li>
                     ))}
