@@ -68,21 +68,6 @@ const Events = () => {
               <div className="row">
                 <div className="col-12">
                   <div className="event-form-wrap">
-                    {/*<h2>Apply for grant</h2>*/}
-
-                    {/*<h4 className="mt-5">*/}
-                    {/*  Grants available for qualifying projects*/}
-                    {/*</h4>*/}
-                    {/*<p>*/}
-                    {/*  Lorem ipsum dolor sit amet, consectetur adipiscing elit,*/}
-                    {/*  sed do eiusmod tempor incididunt ut labore et dolore magna*/}
-                    {/*  aliqua. Ut enim ad minim veniam, quis nostrud exercitation*/}
-                    {/*  ullamco laboris nisi ut aliquip ex ea commodo consequat.*/}
-                    {/*  Duis aute irure dolor in reprehenderit in voluptate velit*/}
-                    {/*  esse cillum dolore eu fugiat nulla pariatur. Excepteur*/}
-                    {/*  sint occaecat cupidatat non proident, sunt in culpa qui*/}
-                    {/*  officia deserunt mollit anim id est laborum.*/}
-                    {/*</p>*/}
                     <p>
                       <a
                         href={"static/files/Application-form.docx"}
@@ -94,10 +79,10 @@ const Events = () => {
 
                     <form
                       className="event-form"
-                      action="https://getform.io/f/5844d173-1a79-4bb8-bdc0-8a03cfb0f535"
                       method="POST"
                       accept-charset="UTF-8"
                       encType="multipart/form-data"
+                      data-netlify="true"
                     >
                       <div className="event-information  ">
                         <h4 className="w-100 mt-5 mb-3">
