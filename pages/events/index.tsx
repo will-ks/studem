@@ -24,13 +24,13 @@ export const exampleEvents: Event[] = [];
 const Events = () => {
   return (
     <div className={"single-page contact-page"}>
-      <Meta title="Events" />
+      <Meta title="Aplică pentru Evenimente" />
       <Header currentItem={"events"} />
       <div className="page-header">
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h1>Events</h1>
+              <h1>Aplică pentru Evenimente</h1>
             </div>
             {/*<!-- .col -->*/}
           </div>
@@ -48,109 +48,57 @@ const Events = () => {
                 <div className="row">
                   <div className="col-12">
                     <div className="event-form-wrap">
-                      <h2>Host an event</h2>
-
-                      <h4 className="mt-5">
-                        The STUDEM space is available for young people to host
-                        events and meetings in Balti.
-                      </h4>
-                      <p>
-                        You can apply to host your event using the form below.
-                        Your application will be reviewed by our board and we
-                        will let you know if your event is approved.
-                      </p>
-
                       <form
                         className="event-form"
-                        action="https://formspree.io/willschaller@gmail.com"
+                        name="events"
                         method="POST"
+                        data-netlify="true"
+                        encType="multipart/form-data"
                       >
-                        <div className="payment-type d-flex flex-wrap align-items-center">
-                          <h4 className="w-100 mt-5">Event Type</h4>
-
-                          <label className="d-flex align-items-center mt-4">
-                            <input
-                              type="radio"
-                              name="Event type"
-                              value="Meeting"
-                            />
-                            <span className="event-type-radio"></span>
-                            <span className="centered-dot"></span>
-                            Meeting
-                          </label>
-
-                          <label className="d-flex align-items-center mt-4">
-                            <input
-                              type="radio"
-                              name="Event type"
-                              value="Social event"
-                            />
-                            <span className="event-type-radio"></span>
-                            <span className="centered-dot"></span>
-                            Social event
-                          </label>
-
-                          <label className="d-flex align-items-center mt-4">
-                            <input
-                              type="radio"
-                              name="Event type"
-                              value="Activity"
-                            />
-                            <span className="event-type-radio"></span>
-                            <span className="centered-dot"></span>
-                            Activity
-                          </label>
-                        </div>
+                        <input type="hidden" name="form-name" value="events" />
 
                         <div className="event-information  ">
-                          <h4 className="w-100 mt-5 mb-3">Event Information</h4>
-
+                          <h4 className="w-100 mt-5 mb-3">Data:</h4>
                           <input
                             type="text"
-                            placeholder="Name of event"
                             style={{ width: "100%" }}
-                            name="Event name"
+                            name="Data"
                             required
                           />
-                          <textarea
-                            className="form-control"
-                            id="exampleFormControlTextarea1"
-                            rows={4}
-                            placeholder="Describe your event"
-                            name="Description"
-                            required
-                          ></textarea>
-                          <textarea
-                            className="form-control"
-                            id="exampleFormControlTextarea1"
-                            rows={4}
-                            placeholder="Requirements"
-                            name="Requirements"
-                            required
-                          ></textarea>
-                          <textarea
-                            className="form-control"
-                            id="exampleFormControlTextarea1"
-                            rows={4}
-                            placeholder="Risk assessment"
-                            name="Risk assessment"
-                            required
-                          ></textarea>
-                        </div>
 
-                        <div className="event-information  d-flex flex-wrap justify-content-between align-items-center">
-                          <h4 className="w-100 mt-5 mb-3">Your Information</h4>
-
+                          <h4 className="w-100 mt-5 mb-3">Ora:</h4>
                           <input
                             type="text"
-                            placeholder="Name"
-                            name="Submitter's name"
+                            style={{ width: "100%" }}
+                            name="Ora"
                             required
                           />
+                          <h4 className="w-100 mt-5 mb-3">Ce eveniment:</h4>
                           <input
-                            type="email"
-                            placeholder="E-mail"
-                            name="Submitter's email"
+                            type="text"
+                            style={{ width: "100%" }}
+                            name="Ce eveniment"
+                            required
+                          />
+                          <h4 className="w-100 mt-5 mb-3">Cât timp:</h4>
+                          <input
+                            type="text"
+                            style={{ width: "100%" }}
+                            name="Cât timp"
+                            required
+                          />
+                          <h4 className="w-100 mt-5 mb-3">Responsabil:</h4>
+                          <input
+                            type="text"
+                            style={{ width: "100%" }}
+                            name="Responsabil"
+                            required
+                          />
+                          <h4 className="w-100 mt-5 mb-3">Date de contact:</h4>
+                          <input
+                            type="text"
+                            style={{ width: "100%" }}
+                            name="Date de contact"
                             required
                           />
                         </div>
@@ -170,39 +118,15 @@ const Events = () => {
             <div className="col-12 col-lg-4">
               <div className="sidebar">
                 <div className="upcoming-events" style={{ marginTop: "0" }}>
-                  <h2>Upcoming Events</h2>
-
                   <ul className="p-0">
-                    {exampleEvents.map(event => (
-                      <li className="d-flex flex-wrap justify-content-between align-items-center">
-                        <figure>
-                          <a href={event.url}>
-                            <img
-                              src={event.image}
-                              alt={event.name}
-                              style={{ width: "106px", height: "106px" }}
-                            />
-                          </a>
-                        </figure>
-
-                        <div className="entry-content">
-                          <h3 className="entry-title">
-                            <a href={event.url}>{event.name}</a>
-                          </h3>
-
-                          <div className="post-metas d-flex flex-wrap align-items-center">
-                            <span className="posted-date">
-                              <a href={event.url}>{event.date}</a>
-                            </span>
-                            <span className="event-location">
-                              <a href={event.url}>{event.location}</a>
-                            </span>
-                          </div>
-
-                          <p>{event.description}</p>
-                        </div>
-                      </li>
-                    ))}
+                    <iframe
+                      src="https://calendar.google.com/calendar/b/3/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FChisinau&amp;src=c3R1ZGVtLm1kX2drdWp0ZGxza2pxZmd1aGc5aHQ1OGhub2NrQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23009688&amp;showTitle=0&amp;showNav=1&amp;showDate=1&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;hl=ro"
+                      style={{ borderWidth: 0 }}
+                      width="100%"
+                      height="600"
+                      frameBorder="0"
+                      scrolling="no"
+                    ></iframe>
                   </ul>
                 </div>
                 {/*<!-- .cat-links -->*/}

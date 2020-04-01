@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="286adcd1-5e1a-4e71-8c38-4b10e1b66873" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/apply/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/apply/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/council/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/council/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/events/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/events/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/grants/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/grants/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +31,7 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -40,18 +41,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/images" />
       <recent name="$PROJECT_DIR$/pages" />
+      <recent name="$PROJECT_DIR$/pages/apply/granturi" />
+      <recent name="$PROJECT_DIR$/static/images" />
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/static/css" />
-      <recent name="$PROJECT_DIR$/template" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages" />
       <recent name="$PROJECT_DIR$/static/files" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/static/images" />
       <recent name="$PROJECT_DIR$/pages/index" />
-      <recent name="$PROJECT_DIR$/static" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.single-causes.html">
@@ -112,7 +113,7 @@
       <workItem from="1580754105449" duration="1902000" />
       <workItem from="1582705043045" duration="876000" />
       <workItem from="1585660404503" duration="1032000" />
-      <workItem from="1585763020958" duration="3223000" />
+      <workItem from="1585763020958" duration="6267000" />
     </task>
     <servers />
   </component>
@@ -141,5 +142,9 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="378" y="222" width="683" height="478" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1578935977962" />
+    <state x="927" y="256" width="672" height="678" key="search.everywhere.popup" timestamp="1585769630814">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="927" y="256" width="672" height="678" key="search.everywhere.popup/1920.299.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1585769630814" />
   </component>
 </project>

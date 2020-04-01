@@ -7,8 +7,9 @@
     "build": "next build",
     "export": "next export",
     "next-start": "next start",
-    "deploy:dev": "netlify deploy",
-    "deploy:prod": "netlify deploy --prod"
+    "deploy": "echo 'Please use either deploy:dev or deploy:prod'",
+    "deploy:dev": "next build && next export && netlify deploy",
+    "deploy:prod": "yarn deploy:dev --prod"
   },
   "dependencies": {
     "next": "9.0.5",

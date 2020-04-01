@@ -66,65 +66,61 @@ const Events = () => {
           <div className="row">
             <div className="container">
               <div className="row">
-                <div className="col-12">
-                  <div className="event-form-wrap">
-                    <p>
-                      <a
-                        href={"static/files/Application-form.docx"}
-                        className={"obvious-link"}
-                      >
-                        Faceți clic aici pentru a descărca formularul de cerere.
-                      </a>
-                    </p>
-
-                    <form
-                      className="event-form"
-                      name="applications"
-                      method="POST"
-                      data-netlify="true"
+                <div className="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
+                  <a href="grants">
+                    <div
+                      className="icon-box"
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center"
+                      }}
                     >
-                      <input
-                        type="hidden"
-                        name="form-name"
-                        value="applications"
-                      />
-                      <div className="event-information  ">
-                        <h4 className="w-100 mt-5 mb-3">
-                          Încărcați formularul de cerere completat
-                        </h4>
-                        <input
-                          type="file"
-                          style={{ width: "100%" }}
-                          name="file"
-                          accept=".doc,.docx,.pdf,.odf"
-                          required
-                        />
-                      </div>
+                      <header className="entry-header">
+                        <h3 className="entry-title" style={{ margin: 0 }}>
+                          Aplică pentru Granturi
+                        </h3>
+                      </header>
+                    </div>
+                  </a>
+                </div>
 
-                      <div className="event-information  d-flex flex-wrap justify-content-between align-items-center">
-                        <h4 className="w-100 mt-5 mb-3">Informatia ta</h4>
+                <div className="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
+                  <a href="events">
+                    <div
+                      className="icon-box"
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center"
+                      }}
+                    >
+                      <header className="entry-header">
+                        <h3 className="entry-title" style={{ margin: 0 }}>
+                          Aplică pentru Evenimente
+                        </h3>
+                      </header>
+                    </div>
+                  </a>
+                </div>
 
-                        <input
-                          type="text"
-                          placeholder="Nume"
-                          name="Submitter's name"
-                          required
-                        />
-                        <input
-                          type="email"
-                          placeholder="E-mail"
-                          name="Submitter's email"
-                          required
-                        />
-                      </div>
-
-                      <input
-                        className="btn gradient-bg mt-5"
-                        type="submit"
-                        value="Trimite"
-                      />
-                    </form>
-                  </div>
+                <div className="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
+                  <a href="council">
+                    <div
+                      className="icon-box"
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center"
+                      }}
+                    >
+                      <header className="entry-header">
+                        <h3 className="entry-title" style={{ margin: 0 }}>
+                          Consiliu de elevi
+                        </h3>
+                      </header>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
