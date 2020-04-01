@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="286adcd1-5e1a-4e71-8c38-4b10e1b66873" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pages/events/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/events/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/apply/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/apply/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +43,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/static/images" />
       <recent name="$PROJECT_DIR$/pages/index" />
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/static/css" />
-      <recent name="$PROJECT_DIR$/template" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/images" />
@@ -106,7 +112,9 @@
       <workItem from="1571668961168" duration="2866000" />
       <workItem from="1572084079860" duration="149000" />
       <workItem from="1578934586767" duration="1363000" />
-      <workItem from="1580754105449" duration="1170000" />
+      <workItem from="1580754105449" duration="1902000" />
+      <workItem from="1582705043045" duration="876000" />
+      <workItem from="1585660404503" duration="1032000" />
     </task>
     <servers />
   </component>

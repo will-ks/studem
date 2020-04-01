@@ -39,7 +39,7 @@ const About = () => {
                   {/*</li>*/}
                   <li>
                     <i className="fa fa-envelope"></i>
-                    <span>office@silba.com</span>
+                    <span>office@studem.md</span>
                   </li>
                   <li>
                     <i className="fa fa-map-marker"></i>
