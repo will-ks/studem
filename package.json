@@ -7,8 +7,8 @@
     "build": "next build",
     "export": "next export",
     "next-start": "next start",
-    "deploy:dev": "now",
-    "deploy:prod": "now --prod"
+    "deploy:dev": "netlify deploy",
+    "deploy:prod": "netlify deploy --prod"
   },
   "dependencies": {
     "next": "9.0.5",

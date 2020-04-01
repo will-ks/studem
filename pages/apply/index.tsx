@@ -79,11 +79,15 @@ const Events = () => {
 
                     <form
                       className="event-form"
+                      name="applications"
                       method="POST"
-                      accept-charset="UTF-8"
-                      encType="multipart/form-data"
                       data-netlify="true"
                     >
+                      <input
+                        type="hidden"
+                        name="form-name"
+                        value="applications"
+                      />
                       <div className="event-information  ">
                         <h4 className="w-100 mt-5 mb-3">
                           Încărcați formularul de cerere completat
