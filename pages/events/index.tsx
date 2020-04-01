@@ -106,7 +106,7 @@ const Events = () => {
                         <input
                           className="btn gradient-bg mt-5"
                           type="submit"
-                          value="Submit"
+                          value="Trimite"
                         />
                       </form>
                     </div>
