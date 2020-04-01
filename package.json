@@ -5,6 +5,7 @@
   "scripts": {
     "start": "now dev",
     "build": "next build",
+    "export": "next export",
     "next-start": "next start",
     "deploy:dev": "now",
     "deploy:prod": "now --prod"
