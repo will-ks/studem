@@ -83,6 +83,7 @@ const Events = () => {
                       method="POST"
                       data-netlify="true"
                       encType="multipart/form-data"
+                      netlify-honeypot="birthday"
                     >
                       <input
                         type="hidden"
@@ -119,6 +120,12 @@ const Events = () => {
                         />
                       </div>
 
+                      <p className="visually-hidden">
+                        <label>
+                          Don’t fill this out if you're human:{" "}
+                          <input name="birthday" />
+                        </label>
+                      </p>
                       <input
                         className="btn gradient-bg mt-5"
                         type="submit"
